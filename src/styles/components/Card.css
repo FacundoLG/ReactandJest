@@ -43,3 +43,7 @@
   border-radius: 0 0 10px 10px;
   border: var(--border-color) solid 1px;
 }
+.addButton:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}

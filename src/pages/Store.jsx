@@ -11,6 +11,7 @@ const Store = ({Mstore}) => {
                         <Card key={prod.id} data={prod}/>
                 )
             }
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam magnam assumenda obcaecati atque vel, voluptatum consequatur! Odio facere, laboriosam nesciunt magnam quod placeat eum accusantium ut! Modi hic repudiandae quam?
         </div>
     )
 }

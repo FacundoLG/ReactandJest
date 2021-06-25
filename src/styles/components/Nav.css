@@ -1,10 +1,13 @@
 .Nav {
   display: flex;
   justify-content: space-between;
-  height: 70px;
+  height: 60px;
   width: 70vw;
+  min-width: 300px;
   margin: 0px auto;
-  align-items: center;
+  align-items: flex-end;
+  padding-bottom: 5px;
+  /* border-bottom: var(--main-color) solid 2px; */
 }
 .Nav > h2 {
   color: var(--main-color);
@@ -15,10 +18,37 @@
   transition: 200ms;
 }
 .icon {
-  color: var(--main-color);
+  width: 23px;
+  height: 23px;
+  display: block;
+  background: var(--main-color);
+  color: white;
+  border-radius: 5px 5px 0 0;
+  border: var(--main-color) 2px solid;
+  transition: 200ms;
 }
 .icon:hover {
   opacity: 0.9;
   cursor: pointer;
   transition: 200ms;
+  background: white;
+  color: var(--main-color);
+}
+.cart {
+  width: 100%;
+  top: 70px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  align-items: flex-end;
+}
+.cartList {
+  background: var(--main-color);
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 40px;
+  border-radius: 5px;
 }

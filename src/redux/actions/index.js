@@ -1,4 +1,4 @@
 export const addToCart = payload => ({
-    type:"ADD_TOP_CART",
+    type:"ADD_TO_CART",
     payload
 }) 

@@ -3,7 +3,9 @@ const reducers = (state,action) =>{
         case 'ADD_TO_CART':
             return{
                 ...state,
-                Cart: [...state.Cart,state.Store.find((product) => product.id === action.payload)]
+                Cart: [...state.Cart,state.Store.find((product) => product.id === action.payload.id)],
+                //Store: [...state.Store.filter((product) => product.id !== action.payload.id)],
+
             }
         default:
             return state

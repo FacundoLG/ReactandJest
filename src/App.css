@@ -6,3 +6,8 @@
   font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
     sans-serif;
 }
+body {
+  width: 70vw;
+  min-width: 320px;
+  margin: auto;
+}

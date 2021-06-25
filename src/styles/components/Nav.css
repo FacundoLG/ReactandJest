@@ -1,0 +1,24 @@
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  width: 70vw;
+  margin: 0px auto;
+  align-items: center;
+}
+.Nav > h2 {
+  color: var(--main-color);
+}
+.Nav > h2:hover {
+  opacity: 0.9;
+  cursor: pointer;
+  transition: 200ms;
+}
+.icon {
+  color: var(--main-color);
+}
+.icon:hover {
+  opacity: 0.9;
+  cursor: pointer;
+  transition: 200ms;
+}

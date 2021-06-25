@@ -1,0 +1,10 @@
+.Store {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 70vw;
+  min-width: 320px;
+  min-height: 90vh;
+  margin: 0px auto;
+  border-radius: 10px;
+}

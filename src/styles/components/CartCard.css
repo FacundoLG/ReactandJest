@@ -1,0 +1,29 @@
+.CartData {
+  display: flex;
+  width: 100%;
+  margin: 5px 5px 0px 5px;
+  height: 50px;
+  position: sticky;
+  color: black;
+}
+.img {
+  min-width: 60px;
+  min-height: 50px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 5px 0 0 5px;
+  border-right: 1px grey solid;
+  background-color: white;
+  margin-left: 5px;
+}
+.cartInfo {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
+  background: white;
+  border-radius: 0 5px 5px 0;
+  margin-right: 5px;
+}

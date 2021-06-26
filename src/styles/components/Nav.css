@@ -6,8 +6,7 @@
   min-width: 300px;
   margin: 0px auto;
   align-items: flex-end;
-  padding-bottom: 5px;
-  /* border-bottom: var(--main-color) solid 2px; */
+  border-bottom: var(--main-color) solid 2px;
 }
 .Nav > h2 {
   color: var(--main-color);
@@ -42,13 +41,19 @@
   flex-direction: column;
   text-align: right;
   align-items: flex-end;
+  transition: 200ms;
 }
 .cartList {
+  position: absolute;
+  top: 57px;
   background: var(--main-color);
-
-  width: 100%;
+  width: 70vw;
+  min-width: 320px;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
   min-height: 40px;
-  border-radius: 5px;
+  border-radius: 0 0 5px 5px;
+  padding-bottom: 5px;
 }
